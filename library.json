@@ -1,0 +1,30 @@
+{
+  "name": "nahs-Bricks-Lib-RTCmem",
+  "version": "1.1.0",
+  "description": "Flexible interface for assigning RTCmem chunks to NAHS-Bricks-Features",
+  "keywords": "NAHS-Bricks, interface, RTCmem, esp8266",
+  "repository":
+  {
+    "type": "git",
+    "url": "git@github.com:NAHS-Bricks/Lib-RTCmem.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Nils Ost",
+      "email": "home@nijos.de",
+      "url": "https://nijos.de",
+      "maintainer": true
+    }
+  ],
+  "exclude": [
+    ".gitignore"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://bricks.nijos.de/",
+  "dependencies": {
+  },
+  "frameworks": "*",
+  "platforms": ["espressif8266"],
+  "examples": "examples/*/*.ino"
+}
